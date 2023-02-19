@@ -1,0 +1,15 @@
+# npm
+api/node_modules
+
+front/node_modules
+# next.js build files
+front/.next
+# environment variables
+.env
+.env.*
+!.env.example
+.vercel
+**/.DS_Store
+
+/cert
+front/.vscode
