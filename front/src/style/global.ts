@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
 
   @font-face {
     font-family: "Poppins-bold";
-    src: url(/fonts/Poppins/Poppins-Bold.ttf");
+    src: url("/fonts/Poppins/Poppins-Bold.ttf");
     font-style: Bold;
     font-weight: 700;
     font-display: swap;
@@ -32,10 +32,15 @@ const GlobalStyle = createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
   }
+
+  html {
+    font-size: 62.5%;
+  }
   
   body {
     font-family: Poppins-normal;
-    background-color: #808080;
+    font-size: 1.6rem;
+    background-color: #A9A9A9;
   }
 `;
 
