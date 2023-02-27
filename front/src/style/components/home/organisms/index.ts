@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 16px;
+  row-gap: 1.6rem;
 
   a {
     text-decoration: none;
@@ -15,19 +15,19 @@ export const Wrapper = styled.div`
 `;
 
 export const Button = styled.div`
-  width: 272px;
+  width: 20.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #363636;
   color: #FFFF;
-  border-radius: 4px;
-  padding: 5px;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
   cursor: pointer;
   font-style: italic;
 
-  @media (max-width: 571px) {
-    width: 150px;
+  @media (max-width: 50.71rem) {
+    width: 15ren;
   }
 `;
 
