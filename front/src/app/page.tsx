@@ -1,7 +1,5 @@
+import TamplateHome from "@/components/templates/home";
+
 export default function Home() {
-  return (
-    <div>
-      HELLO PAGE HOME
-    </div>
-  );
+  return <TamplateHome />;
 }
